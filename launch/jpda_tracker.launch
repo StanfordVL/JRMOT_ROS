@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<launch>
+  <!-- Console launch prefix -->
+  <arg name="output"        default="screen"/>
+
+  <!-- Config and weights folder. -->
+  <arg name="aligned_reid_model"         default="$(find jpda_rospack)/src/aligned_reid_JRDB_weights.pth"/>
+  <arg name="fpointnet_config"           default="$(find jpda_rospack)/config/featurepointnet.cfg"/>
+  <arg name="calib_3d"                   default="$(find jpda_rospack)/calib"/>
+  <arg name="combination_depth_weight"   default="1"/>
+  <arg name="combination_model_path"     default="0"/>
+
+
+  <node pkg="jpda_rospack" type="template.py" name="jpda_aligned_reid" output="$(arg output)" respawn="false">
+    <param name="aligned_reid_model"          value="$(arg aligned_reid_model)" />
+  </node>
+
+  <node pkg="jpda_rospack" type="3d_detector.py" name="jpda_3d_detector" output="$(arg output)" respawn="false">
+    <param name="fpointnet_config"          value="$(arg fpointnet_config)" />
+    <param name="calib_3d"                  value="$(arg calib_3d)" />
+  </node>
+  
+  <node pkg="jpda_rospack" type="tracker_3d_node.py" name="jpda_tracker_3d" output="$(arg output)" respawn="false">
+    <param name="combination_depth_weight"           value="$(arg combination_depth_weight)" />
+    <param name="calib_3d"                           value="$(arg calib_3d)" />
+    <param name="combination_model_path"             value="$(arg combination_model_path)" />
+  </node>
+
+</launch>

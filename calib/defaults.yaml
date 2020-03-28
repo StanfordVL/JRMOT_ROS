@@ -1,0 +1,28 @@
+calibrated:
+  # the lidar_to_rgb parameters allow tweaking of the transformation between lidar and rgb frames
+  # the default transformation is taken from the TF Tree
+  # NOTE: applied to the original (sensor/velodyne) frame [x forward, y left, z up]:
+  lidar_upper_to_rgb:
+    # in meters: [x,y,z]
+    translation: [0, 0, -0.33529]
+    # in radians: [x,y,z]
+    rotation: [0, 0, 0.085]
+ 
+  lidar_lower_to_rgb:
+
+    translation: [0, 0, 0.13511]
+    
+    rotation: [0, 0, 0]
+image:
+  # all in pixels
+  width: 3760
+  height: 480
+  # y-axis forward pixel offset (e.g. 3760/2 => 1880, b/c center of the cylindrical image is forward)
+  #  TODO: move into calibrated params, when auto-calibration is possible
+  stitched_image_offset: 1880
+
+frames:
+  # lookup for people transforms
+  global: base_link
+  # name of the rgb360 camera frame to which we wish to transform
+  rgb360: occam
