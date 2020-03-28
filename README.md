@@ -19,7 +19,7 @@ We also release JRDB:
 All information, including download links for JRDB can be found [here](https://jrdb.stanford.edu).
 
 ## JRMOT
-![system overview](https://github.com/StanfordVL/JRMOT_ROS/assets/framework.png)
+![system overview](https://github.com/StanfordVL/JRMOT_ROS/blob/master/assets/framework.png)
 
 - Our system is built on top of state of the art 2D and 3D detectors (mask-RCNN and F-PointNet respectively). These detections are associated with predicted track locations at every time step. 
 - Association is done via a novel feature fusion, as well as a cost selection procedure, followed by Kalman state gating and JPDA. 
