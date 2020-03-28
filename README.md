@@ -47,7 +47,8 @@ The following are dependencies of the code:
 ## Citation
 
 If you find this work useful, please cite:
-`@misc{shenoi2020jrmot,
+```
+@misc{shenoi2020jrmot,
     title={JRMOT: A Real-Time 3D Multi-Object Tracker and a New Large-Scale Dataset},
     author={Abhijeet Shenoi and Mihir Patel and JunYoung Gwak and Patrick Goebel and Amir Sadeghian and Hamid Rezatofighi and Roberto Martin-Martin and Silvio Savarese},
     year={2020},
@@ -55,9 +56,11 @@ If you find this work useful, please cite:
     archivePrefix={arXiv},
     primaryClass={cs.CV}
 }
-`
+```
+
 If you utilise our dataset, please also cite:
-`
+
+```
 @misc{martnmartn2019jrdb,
     title={JRDB: A Dataset and Benchmark for Visual Perception for Navigation in Human Environments},
     author={Roberto Martín-Martín and Hamid Rezatofighi and Abhijeet Shenoi and Mihir Patel and JunYoung Gwak and Nathan Dass and Alan Federman and Patrick Goebel and Silvio Savarese},
@@ -66,5 +69,5 @@ If you utilise our dataset, please also cite:
     archivePrefix={arXiv},
     primaryClass={cs.CV}
 }
-`
+```
 ## 
