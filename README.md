@@ -1,6 +1,8 @@
 # JRMOT ROS package
 
-The repository contains the code for the work "JRMOT: A Real-Time 3D Multi-Object Tracker and a New Large-Scale Dataset"
+The repository contains the code for the work "JRMOT: A Real-Time 3D Multi-Object Tracker and a New Large-Scale Dataset".
+
+Note that due to the global pandemic, this repository is still a work in progress. Updates will be made as soon as possible.
 
 ## Introduction
 
