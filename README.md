@@ -41,8 +41,8 @@ The following are dependencies of the code:
 
 + 2D detector: The 2D detector is not included in this package. To interface with your own 2D detector, please modify the file template.py to subscribe to the correct topic, and also to handle the conversion from ROS message to numpy array.
 + Spencer People Tracking messages: The final tracker output is in a Spencer People Tracking message. Please install this package and include these message types.
-+ Various python packages: These can be found in requirements.txt. Please install all dependencies prior to running the code (including CUDA and cuDNN.
-+ Weight files: The trained weights, (trained on JRDB) can be found here:
++ Various python packages: These can be found in [requirements.txt](./requirements.txt).. Please install all dependencies prior to running the code (including CUDA and cuDNN. Additionally, this code requires a solver called Gurobi. Instructions to install gurobipy can be found [here](https://www.gurobi.com/documentation/9.0/quickstart_mac/the_grb_python_interface_f.html).
++ Weight files: The trained weights, (trained on JRDB) for FPointNet and Aligne-ReID can be found [here](https://drive.google.com/open?id=1YQinMPVWEI44KezS9inXe0mvVnm4aL3s).
 
 ## Citation
 
