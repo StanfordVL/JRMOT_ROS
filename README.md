@@ -52,7 +52,7 @@ If you find this work useful, please cite:
 ```
 @misc{shenoi2020jrmot,
     title={JRMOT: A Real-Time 3D Multi-Object Tracker and a New Large-Scale Dataset},
-    author={Abhijeet Shenoi and Mihir Patel and JunYoung Gwak and Patrick Goebel and Amir Sadeghian and Hamid Rezatofighi and Roberto Martin-Martin and Silvio Savarese},
+    author={Abhijeet Shenoi and Mihir Patel and JunYoung Gwak and Patrick Goebel and Amir Sadeghian and Hamid Rezatofighi and Roberto Martín-Martín and Silvio Savarese},
     year={2020},
     eprint={2002.08397},
     archivePrefix={arXiv},
