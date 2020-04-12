@@ -1,6 +1,8 @@
 # JRMOT ROS package
 
-The repository contains the code for the work "JRMOT: A Real-Time 3D Multi-Object Tracker and a New Large-Scale Dataset"
+The repository contains the code for the work "JRMOT: A Real-Time 3D Multi-Object Tracker and a New Large-Scale Dataset".
+
+Note that due to the global pandemic, this repository is still a work in progress. Updates will be made as soon as possible.
 
 ## Introduction
 
@@ -19,7 +21,7 @@ We also release JRDB:
 All information, including download links for JRDB can be found [here](https://jrdb.stanford.edu).
 
 ## JRMOT
-![system overview](https://github.com/StanfordVL/JRMOT_ROS/assets/framework.png)
+![system overview](https://github.com/StanfordVL/JRMOT_ROS/blob/master/assets/framework.png)
 
 - Our system is built on top of state of the art 2D and 3D detectors (mask-RCNN and F-PointNet respectively). These detections are associated with predicted track locations at every time step. 
 - Association is done via a novel feature fusion, as well as a cost selection procedure, followed by Kalman state gating and JPDA. 
@@ -47,7 +49,8 @@ The following are dependencies of the code:
 ## Citation
 
 If you find this work useful, please cite:
-`@misc{shenoi2020jrmot,
+```
+@misc{shenoi2020jrmot,
     title={JRMOT: A Real-Time 3D Multi-Object Tracker and a New Large-Scale Dataset},
     author={Abhijeet Shenoi and Mihir Patel and JunYoung Gwak and Patrick Goebel and Amir Sadeghian and Hamid Rezatofighi and Roberto Martin-Martin and Silvio Savarese},
     year={2020},
@@ -55,9 +58,11 @@ If you find this work useful, please cite:
     archivePrefix={arXiv},
     primaryClass={cs.CV}
 }
-`
+```
+
 If you utilise our dataset, please also cite:
-`
+
+```
 @misc{martnmartn2019jrdb,
     title={JRDB: A Dataset and Benchmark for Visual Perception for Navigation in Human Environments},
     author={Roberto Martín-Martín and Hamid Rezatofighi and Abhijeet Shenoi and Mihir Patel and JunYoung Gwak and Nathan Dass and Alan Federman and Patrick Goebel and Silvio Savarese},
@@ -66,5 +71,5 @@ If you utilise our dataset, please also cite:
     archivePrefix={arXiv},
     primaryClass={cs.CV}
 }
-`
+```
 ## 
