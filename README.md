@@ -51,7 +51,7 @@ The following are dependencies of the code:
 If you find this work useful, please cite:
 ```
 @INPROCEEDINGS{shenoi2020jrmot,
-  author={A. {Shenoi} and M. {Patel} and J. {Gwak} and P. {Goebel} and A. {Sadeghian} and H. {Rezatofighi} and R. {Mart\’in-Mart\’in} and S. {Savarese}},
+  author={A. {Shenoi} and M. {Patel} and J. {Gwak} and P. {Goebel} and A. {Sadeghian} and H. {Rezatofighi} and R. {Mart\'in-Mart\'in} and S. {Savarese}},
   booktitle={2020 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)}, 
   title={JRMOT: A Real-Time 3D Multi-Object Tracker and a New Large-Scale Dataset}, 
   year={2020},
