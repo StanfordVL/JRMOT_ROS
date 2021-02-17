@@ -50,26 +50,25 @@ The following are dependencies of the code:
 
 If you find this work useful, please cite:
 ```
-@misc{shenoi2020jrmot,
-    title={JRMOT: A Real-Time 3D Multi-Object Tracker and a New Large-Scale Dataset},
-    author={Abhijeet Shenoi and Mihir Patel and JunYoung Gwak and Patrick Goebel and Amir Sadeghian and Hamid Rezatofighi and Roberto Martín-Martín and Silvio Savarese},
-    year={2020},
-    eprint={2002.08397},
-    archivePrefix={arXiv},
-    primaryClass={cs.CV}
-}
+@INPROCEEDINGS{shenoi2020jrmot,
+  author={A. {Shenoi} and M. {Patel} and J. {Gwak} and P. {Goebel} and A. {Sadeghian} and H. {Rezatofighi} and R. {Mart\’in-Mart\’in} and S. {Savarese}},
+  booktitle={2020 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)}, 
+  title={JRMOT: A Real-Time 3D Multi-Object Tracker and a New Large-Scale Dataset}, 
+  year={2020},
+  volume={},
+  number={},
+  pages={10335-10342},
+  doi={10.1109/IROS45743.2020.9341635}}
 ```
 
 If you utilise our dataset, please also cite:
 
 ```
-@misc{martnmartn2019jrdb,
-    title={JRDB: A Dataset and Benchmark for Visual Perception for Navigation in Human Environments},
-    author={Roberto Martín-Martín and Hamid Rezatofighi and Abhijeet Shenoi and Mihir Patel and JunYoung Gwak and Nathan Dass and Alan Federman and Patrick Goebel and Silvio Savarese},
-    year={2019},
-    eprint={1910.11792},
-    archivePrefix={arXiv},
-    primaryClass={cs.CV}
+@article{martin2019jrdb,
+  title={JRDB: A dataset and benchmark of egocentric visual perception for navigation in human environments},
+  author={Mart{\'\i}n-Mart{\'\i}n, Roberto and Patel, Mihir and Rezatofighi, Hamid and Shenoi, Abhijeet and Gwak, JunYoung and Frankel, Eric and Sadeghian, Amir and Savarese, Silvio},
+  journal={arXiv preprint arXiv:1910.11792},
+  year={2019}
 }
 ```
 ## 
