@@ -66,7 +66,7 @@ If you utilise our dataset, please also cite:
 ```
 @article{martin2019jrdb,
   title={JRDB: A dataset and benchmark of egocentric visual perception for navigation in human environments},
-  author={Mart{\'\i}n-Mart{\'\i}n, Roberto and Patel, Mihir and Rezatofighi, Hamid and Shenoi, Abhijeet and Gwak, JunYoung and Frankel, Eric and Sadeghian, Amir and Savarese, Silvio},
+  author={Mart{\'i}n-Mart{\'i}n, Roberto and Patel, Mihir and Rezatofighi, Hamid and Shenoi, Abhijeet and Gwak, JunYoung and Frankel, Eric and Sadeghian, Amir and Savarese, Silvio},
   journal={arXiv preprint arXiv:1910.11792},
   year={2019}
 }
