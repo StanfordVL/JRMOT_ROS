@@ -75,7 +75,7 @@ python-lzf==0.2.4
 pythreejs==2.0.2
 pytz==2018.9
 PyWavelets==1.0.1
-PyYAML==5.1.1
+PyYAML==5.4
 pyzmq==17.1.2
 requests==2.21.0
 rospkg==1.1.9
