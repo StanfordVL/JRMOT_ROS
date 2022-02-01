@@ -54,7 +54,7 @@ notebook==6.4.1
 numba==0.43.1
 numpy==1.18.4
 open3d-python==0.7.0.0
-opencv-python==4.0.0.21
+opencv-python==4.2.0.32
 pandas==0.24.1
 pandocfilters==1.4.2
 parso==0.3.3
