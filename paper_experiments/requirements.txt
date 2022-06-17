@@ -50,7 +50,7 @@ mistune==0.8.4
 nbconvert==5.4.1
 nbformat==4.4.0
 networkx==2.2
-notebook==6.4.1
+notebook==6.4.12
 numba==0.43.1
 numpy==1.21.0
 open3d-python==0.7.0.0
