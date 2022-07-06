@@ -19,7 +19,7 @@ ffmpeg==1.4
 gast==0.2.2
 grpcio==1.18.0
 gurobipy==8.1.0
-html5lib==0.9999999
+html5lib==0.999999999
 idna==2.8
 imageio==2.5.0
 imageio-ffmpeg==0.3.0
