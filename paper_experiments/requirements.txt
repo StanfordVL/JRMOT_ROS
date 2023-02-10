@@ -26,7 +26,7 @@ imageio-ffmpeg==0.3.0
 ipydatawidgets==4.0.0
 ipykernel==5.1.0
 ipympl==0.2.1
-ipython==7.16.3
+ipython==8.10.0
 ipython-genutils==0.2.0
 ipyvolume==0.5.1
 ipywebrtc==0.4.3
